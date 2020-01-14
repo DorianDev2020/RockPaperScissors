@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rock_Paper_Scissors
+namespace RPSLS
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Hello
-
+            Game game = new Game();
+            game.RunGame();
         }
     }
 }

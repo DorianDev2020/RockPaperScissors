@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3090DAF3-67FE-4BDF-B377-18160254177F}</ProjectGuid>
+    <ProjectGuid>{6879B4D7-41F6-4A5A-9DB5-2B9C43B12A3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rock_Paper_Scissors</RootNamespace>
-    <AssemblyName>Rock Paper Scissors</AssemblyName>
+    <RootNamespace>RPSLS</RootNamespace>
+    <AssemblyName>RPSLS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Computer.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

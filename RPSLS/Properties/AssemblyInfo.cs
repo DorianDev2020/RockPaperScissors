@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Rock Paper Scissors")]
+[assembly: AssemblyTitle("RPSLS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Rock Paper Scissors")]
+[assembly: AssemblyProduct("RPSLS")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3090daf3-67fe-4bdf-b377-18160254177f")]
+[assembly: Guid("6879b4d7-41f6-4a5a-9db5-2b9c43b12a3d")]
 
 // Version information for an assembly consists of the following four values:
 //
