@@ -9,9 +9,10 @@ namespace RPSLS
     public class Computer : Player
     {
         public int score;
-
+       
         public Computer()
         {
+            playerName = "Sheldon";
             score = 0;
             ChooseName();
         }
@@ -29,7 +30,7 @@ namespace RPSLS
             //How To Generate A Random Number
             Random rnd = new Random();
             // consider bounds for random number with respect to list
-            int randomnumber = rnd.Next(1,5);
+            int randomnumber = rnd.Next(1,6);
             gesture = gestures[randomnumber];
 
         }

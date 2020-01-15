@@ -8,6 +8,7 @@ namespace RPSLS
 {
     public abstract class Player
     {
+       
         public string playerName;
         public int randomint;
         public string gesture;
@@ -25,17 +26,12 @@ namespace RPSLS
             gestures.Add("Spock");
         }
 
-        public virtual void ChooseName()
-        {
-
-        }
-
+        public abstract void ChooseName();
 
         public virtual void ChooseGesture()
         {
-            Console.Write("Choose Your Gesture");
+            Console.WriteLine("Choose Your Gesture");
             gesture = Console.ReadLine();
-            
         }
 
     }

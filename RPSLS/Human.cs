@@ -24,11 +24,7 @@ namespace RPSLS
             playerName = Console.ReadLine();
         }
 
-        //public override void ChooseGesture()
-        //{
-        //    base.ChooseGesture();
-        //    Console.ReadLine();
-        //}
+       
 
 
     }
