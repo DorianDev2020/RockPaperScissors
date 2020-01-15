@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-     public class Game
+     public class Game : Player
      {
         Player Player1;
         Player Player2;
@@ -14,9 +14,18 @@ namespace RPSLS
         // member methods
         public string Setnumberofplayers() // master method
         {
-            Console.WriteLine("How Many Players");
+            Console.Write("How Many Players");
             string NumberofPlayers = Console.ReadLine();
             return NumberofPlayers;
+
+        }
+
+        public void Rounds()
+        {
+            Player1.ChooseGesture();
+            Player2.ChooseGesture();
+            GestureComparrison();
+
 
         }
 
@@ -33,6 +42,13 @@ namespace RPSLS
                 Player1 = new Human();
                 Player2 = new Computer();
             }
+
+        }
+
+        public void GestureComparrison()
+        {
+            if 
+            
 
         }
      }

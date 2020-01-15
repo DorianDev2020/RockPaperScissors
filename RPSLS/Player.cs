@@ -29,8 +29,9 @@ namespace RPSLS
 
         public virtual void ChooseGesture()
         {
-            Console.WriteLine("Choose Your Gesture");
+            Console.Write("Choose Your Gesture");
             gesture = Console.ReadLine();
+            
         }
 
     }
