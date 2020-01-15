@@ -10,14 +10,12 @@ namespace RPSLS
     {
        
         public string playerName;
-        public int randomint;
+        public int score;
         public string gesture;
         public List<string> gestures;
         public Player()
         {
             //I like the .Add list way just so its super transparent
-            playerName = null;
-            randomint = 0;
             gestures = new List<string>();
             gestures.Add("Rock");
             gestures.Add("Paper");
@@ -25,15 +23,10 @@ namespace RPSLS
             gestures.Add("Lizard");
             gestures.Add("Spock");
         }
-
         public abstract void ChooseName();
 
-        public virtual void ChooseGesture()
-        {
-            Console.WriteLine("Choose Your Gesture");
-            gesture = Console.ReadLine();
-        }
-
+        public abstract void ChooseGesture();
+       
     }
 
     

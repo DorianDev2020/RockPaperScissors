@@ -8,15 +8,6 @@ namespace RPSLS
 {
     public class Computer : Player
     {
-        public int score;
-       
-        public Computer()
-        {
-            playerName = "Sheldon";
-            score = 0;
-            ChooseName();
-        }
-
         public override void ChooseName()
         {
             
@@ -26,7 +17,6 @@ namespace RPSLS
         public override void ChooseGesture()
         {
             Console.Write("Choose Your Gesture");
-
             //How To Generate A Random Number
             Random rnd = new Random();
             // consider bounds for random number with respect to list
