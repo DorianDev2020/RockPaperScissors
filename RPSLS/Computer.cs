@@ -18,9 +18,8 @@ namespace RPSLS
 
         public override void ChooseName()
         {
-            //Console.WriteLine("Hello My Name Is Sheldon");
-            //Console.WriteLine("Shall We Begin?");
-            playerName = "Matty B Smokes";
+            
+            playerName = "Sheldon";
         }
 
         public override void ChooseGesture()

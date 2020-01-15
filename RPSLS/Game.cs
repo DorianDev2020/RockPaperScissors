@@ -8,14 +8,32 @@ namespace RPSLS
 {
      public class Game
      {
-        
+        Player Player1;
+        Player Player2;
 
         // member methods
-        public void RunGame() // master method
+        public string Setnumberofplayers() // master method
         {
-            // display rules
-            // determine game mode
-            // have cpidsfji
+            Console.WriteLine("How Many Players");
+            string NumberofPlayers = Console.ReadLine();
+            return NumberofPlayers;
+
+        }
+
+        public void SetPlayers (string NumberofPlayers)
+        {
+            if(NumberofPlayers == "1")
+            {
+                Player1 = new Human();
+                Player2 = new Computer();
+            }
+            else if(NumberofPlayers =="2")
+            {
+
+                Player1 = new Human();
+                Player2 = new Computer();
+            }
+
         }
      }
 }
