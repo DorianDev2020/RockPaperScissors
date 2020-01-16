@@ -82,7 +82,7 @@ namespace RPSLS
                 {
 
                     Player1 = new Human();
-                    Player2 = new Computer();
+                    Player2 = new Human();
                     isvalid = true;
                 }
                 else
@@ -110,7 +110,7 @@ namespace RPSLS
             }
             else if (Player1.gesture == "Rock" && Player2.gesture == "Scissors")
             {
-                Console.WriteLine("Rock Beats Scissors" + Player1 + " Wins!");
+                Console.WriteLine("Rock Beats Scissors" + Player1 + "Wins!");
                 Player1.score++;
             }
             else if (Player1.gesture == "Paper" && Player2.gesture == "Rock")
@@ -155,7 +155,7 @@ namespace RPSLS
             }
             else
             {
-                Console.WriteLine("Please make a Selection From the List");
+                Console.WriteLine(" Please make a Selection From the List");
 
             }
 
